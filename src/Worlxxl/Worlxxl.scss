@@ -1,0 +1,22 @@
+.Worlxxl__wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Worlxxl-logo{
+    h1{
+        font-size: 74px;
+    }
+    a{
+        font-size: 74px;
+        text-decoration: none;
+        color: rgba(128, 128, 128, 0.688);
+        &:hover{
+            color: rgba(128, 128, 128, 0.488);
+        }
+    }
+}
+
+.Worlxxl{
+    margin: 80px;
+}

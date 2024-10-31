@@ -1,0 +1,30 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+    p{
+        color: gray;
+        font-size: 14px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    .card-p{
+        color: black;
+        background-color: rgba(128, 128, 128, 0.327);
+        border-radius: 30px;
+        width: max-content;
+    
+        margin: 0 auto;
+        padding: 5px;
+    }
+}

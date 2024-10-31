@@ -1,0 +1,26 @@
+.Experience__wrapper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    h1{
+        font-size: 34px;
+        font-weight: 800;
+    }
+
+    p{
+        
+        width: max-content;
+        padding: 8px;
+        border-radius: 30px;
+        background-color: rgba(128, 128, 128, 0.404);
+    }
+}
+.Experience-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
